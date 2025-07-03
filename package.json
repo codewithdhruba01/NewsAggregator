@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "netlify:build": "npm run build"
+    "netlify:build": "npm run build",
+    "netlify:deploy": "netlify deploy --prod"
   },
   "dependencies": {
     "axios": "^1.4.0",
@@ -20,9 +21,10 @@
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.14",
+    "netlify-cli": "^17.10.1",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3",
-    "typescript": "^5.8.3",
+    "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
 }
